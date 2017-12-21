@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- APP VERSION 1.0 Beta -->
+    <!-- MAIN THEME -->
+    <!-- Search Screen Background Colors -->
+    <color name="colorBottomNavigation">#212121</color>
+    <color name="colorMainActivityBackground">#2e2e2e</color>
+
+    <!-- List Item Colors -->
+    <color name="colorListItemDropShadow">#242424</color>
+    <color name="colorListItem">#313e4a</color>
+    <color name="colorListItemHighlighted">#476177</color>
+    <color name="colorListItemBottom">#ffffff</color>
+
+
+
+    <!-- LIGHT THEME-->
+
+
+</resources>
