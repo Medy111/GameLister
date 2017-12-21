@@ -74,7 +74,7 @@ public class GamesTest {
 
                     // testId will return 1942 since we choose the ("id") field
                     // try to display (testId inside a TextView)
-                    // if complete , celebrate and be proud^^
+                    // if complete , celebrate and be proud^^1
 
                     Log.d("Firsttest","JSON" + result.toString());
 
