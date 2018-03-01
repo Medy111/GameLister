@@ -1,4 +1,4 @@
-package com.gamelist.gamelist;
+package com.gamelist.gamelist.models;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,7 @@ import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertNotNull;
 import static junit.framework.Assert.assertTrue;
 import static junit.framework.Assert.fail;
+
 
 /**
  * Created by captainawesome on 2017-09-15.

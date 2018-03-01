@@ -17,8 +17,96 @@
     <color name="colorListItemBottom">#ffffff</color>
 
 
+    <color name="cardview_dark_background">#212121</color>
+
+
 
     <!-- LIGHT THEME-->
 
+
+
+    <!-- ADDED-->
+
+
+    <color name="colorFavoriteIcon">#FFD700</color>
+    <color name="colorText">#ffffff</color>
+    <color name="colorTextDark">#000000</color>
+    <color name="colorTextLightDark">#1A1A1A</color>
+
+    <color name="colorBackgroundLight">#F5F5F5</color>
+
+    <color name="colorPrimary2">#34D1BF</color>
+    <color name="colorPrimaryDark2">#2BAC9D</color>
+
+    <!-- Dark theme colors -->
+
+    <color name="colorPrimaryD">#1A1A1A</color>
+    <color name="colorPrimaryDarkD">#000000</color>
+    <color name="colorAccentD">#505050</color>
+
+    <color name="colorFavoriteIconD">#FFD700</color>
+    <color name="colorTextD">#ffffff</color>
+    <color name="colorTextDarkD">#ffffff</color>
+    <color name="colorTextLightDarkD">#F5F5F5</color>
+
+    <color name="colorBackgroundLightD">#282828</color>
+
+    <color name="colorPrimary2D">#34D1BF</color>
+    <color name="colorPrimaryDark2D">#2BAC9D</color>
+
+    <color name="igdb_color">#27AE60</color>
+
+    <color name="pc_color">#3a3a3a</color>
+    <color name="ps4_color">#003791</color>
+    <color name="xboxone_color">#107c10</color>
+    <color name="nintedoswitch_color">#ff4554</color>
+
+    <!-- Material design colors -->
+    <!--reds-->
+    <color name="md_red_50">#FFEBEE</color>
+    <color name="md_red_100">#FFCDD2</color>
+    <color name="md_red_200">#EF9A9A</color>
+    <color name="md_red_300">#E57373</color>
+    <color name="md_red_400">#EF5350</color>
+    <color name="md_red_500">#F44336</color>
+    <color name="md_red_600">#E53935</color>
+    <color name="md_red_700">#D32F2F</color>
+    <color name="md_red_800">#C62828</color>
+    <color name="md_red_900">#B71C1C</color>
+    <color name="md_red_A100">#FF8A80</color>
+    <color name="md_red_A200">#FF5252</color>
+    <color name="md_red_A400">#FF1744</color>
+    <color name="md_red_A700">#D50000</color>
+
+
+    <!--grey-->
+    <color name="md_grey_50">#FAFAFA</color>
+    <color name="md_grey_100">#F5F5F5</color>
+    <color name="md_grey_200">#EEEEEE</color>
+    <color name="md_grey_300">#E0E0E0</color>
+    <color name="md_grey_400">#BDBDBD</color>
+    <color name="md_grey_500">#9E9E9E</color>
+    <color name="md_grey_600">#757575</color>
+    <color name="md_grey_700">#616161</color>
+    <color name="md_grey_800">#424242</color>
+    <color name="md_grey_900">#212121</color>
+    <color name="md_black_1000">#000000</color>
+    <color name="md_white_1000">#ffffff</color>
+
+    <!--blue grey-->
+    <color name="md_blue_grey_50">#ECEFF1</color>
+    <color name="md_blue_grey_100">#CFD8DC</color>
+    <color name="md_blue_grey_200">#B0BBC5</color>
+    <color name="md_blue_grey_300">#90A4AE</color>
+    <color name="md_blue_grey_400">#78909C</color>
+    <color name="md_blue_grey_500">#607D8B</color>
+    <color name="md_blue_grey_600">#546E7A</color>
+    <color name="md_blue_grey_700">#455A64</color>
+    <color name="md_blue_grey_800">#37474F</color>
+    <color name="md_blue_grey_900">#263238</color>
+
+
+    <color name="added">#64DD17</color>
+    <color name="removed">#D50000</color>
 
 </resources>

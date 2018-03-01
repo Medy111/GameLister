@@ -1,7 +1,9 @@
-package com.gamelist.gamelist;
+package com.gamelist.gamelist.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.gamelist.gamelist.R;
 
 public class ListActivity extends AppCompatActivity {
 

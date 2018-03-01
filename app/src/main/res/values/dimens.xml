@@ -5,4 +5,43 @@
     <!-- Height of each list item -->
     <dimen name="list_item_height">166dp</dimen>
 
+
+    <!-- ADDED -->
+
+
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+    <dimen name="card_summary">14sp</dimen>
+    <dimen name="header">16sp</dimen>
+
+    <dimen name="countdown_size">20sp</dimen>
+
+    <dimen name="item_offset">10dp</dimen>
+    <dimen name="detail_backdrop_height">250dp</dimen>
+    <dimen name="backdrop_title">30dp</dimen>
+    <dimen name="backdrop_subtitle">18dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="card_radius">10dp</dimen>
+    <dimen name="album_cover_height">160dp</dimen>
+    <dimen name="favorite_item_height">240dp</dimen>
+    <dimen name="title_padding">10dp</dimen>
+
+    <dimen name="card_game_title">14sp</dimen>
+
+
+    <dimen name="text_padding_bottom">10dp</dimen>
+    <dimen name="songs_count">12dp</dimen>
+    <dimen name="ic_album_overflow_width">20dp</dimen>
+    <dimen name="ic_album_overflow_height">30dp</dimen>
+    <dimen name="ic_album_overflow_margin_top">10dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+
+
+
 </resources>
