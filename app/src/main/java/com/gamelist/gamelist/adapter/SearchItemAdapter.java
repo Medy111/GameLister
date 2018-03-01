@@ -20,6 +20,8 @@ public class SearchItemAdapter extends RecyclerView.Adapter<SearchItemAdapter.Ex
     private ArrayList<SearchItem> mExampleList;
 
 
+
+
 /** ONCLICKLISTENER INTERFACE for List item ( method down below )    */
     /***************************************************************/
 
@@ -38,6 +40,7 @@ public class SearchItemAdapter extends RecyclerView.Adapter<SearchItemAdapter.Ex
     public SearchItemAdapter(Context context, ArrayList<SearchItem> exampleList) {
         mContext = context;
         mExampleList = exampleList;
+
     }
 
     @Override
@@ -58,6 +61,7 @@ public class SearchItemAdapter extends RecyclerView.Adapter<SearchItemAdapter.Ex
         holder.mTextViewLikes.setText("Likes: " + likeCount);
         Picasso.with(mContext).load(imageUrl).fit().centerInside().into(holder.mImageView);
     }
+
 
     @Override
     public int getItemCount() {
@@ -94,5 +98,11 @@ public class SearchItemAdapter extends RecyclerView.Adapter<SearchItemAdapter.Ex
             });
 
         }
+
+    }
+
+    public void filterList(ArrayList<SearchItem> filteredList) {
+        mExampleList = filteredList;
+        notifyDataSetChanged();
     }
 }
