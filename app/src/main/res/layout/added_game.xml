@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/favorite_card"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackgroundBorderless">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        card_view:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/cardview_dark_background">
+
+            <RelativeLayout
+                android:id="@+id/image_load"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/thumbnail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:adjustViewBounds="true"
+                    android:clickable="true"
+                    android:scaleType="centerCrop"
+                    android:foreground="?attr/selectableItemBackgroundBorderless" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/countdown_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="Countdown"
+                android:textSize="@dimen/countdown_size"
+                android:textStyle="bold"
+                android:textColor="@color/colorText"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:maxLines="1"
+                android:id="@+id/title"
+                android:text="Title Title Title Title Title Title Title Title Title Title Title Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="@dimen/card_summary"
+                android:textStyle="bold"
+                android:textColor="@color/colorText"
+                android:layout_below="@+id/overflow"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/releaseDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Release date"
+                android:textSize="@dimen/card_summary"
+                android:textColor="@color/colorText"
+                android:layout_above="@+id/notification_bell"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/console"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PS4"
+                android:textSize="@dimen/card_summary"
+                android:textColor="@color/colorText"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:padding="10dp"/>
+
+            <ImageView
+                android:id="@+id/overflow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:tint="@color/colorPrimary2"
+                card_view:srcCompat="@drawable/ic_more_vert_white_24dp"
+                android:padding="10dp"
+                android:layout_alignParentEnd="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:layout_alignParentRight="true"/>
+
+            <ImageView
+                android:id="@+id/notification_bell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:padding="10dp"
+                android:tint="@color/colorPrimary2"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                card_view:srcCompat="@drawable/ic_notifications_active_black_24dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

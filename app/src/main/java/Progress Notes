@@ -1,0 +1,165 @@
+
+Notes to keep track. TODO List
+*****************************************************************************
+*****************************************************************************
+
+///////////////////
+BASIC STEPS PHASE 1
+///////////////////
+
+1.
+Response from IGDB API.
+(this is thankfully handled by API wrapper , no worry about threading ,
+Asynch task) - API uses Volley Libary to which makes things much easier & faster.
+https://github.com/google/volley
+
+2.
+Create a Model for a single list item.
+
+3.
+Create Adapter which will take our model & populate a ListView with it.   - USE DUMMY DATA
+
+*****************************************************************************
+*****************************************************************************
+
+///////////////////
+BASIC STEPS PHASE 2
+///////////////////
+
+1.
+USE the JSON Response data for our model.
+
+*****************************************************************************
+*****************************************************************************
+
+///////////////////
+BASIC STEPS PHASE 3
+///////////////////
+
+1.
+Create a Searchview / Input text field , which will allow us to get different response
+
+*****************************************************************************
+*****************************************************************************
+
+///////////////////
+FINAL STEPS PHASE 4
+///////////////////
+
+1.
+Implement Recyclerview / ViewHolder
+2.
+Finalize Search  --> user inputs game name : Results Display
+3.
+Starting Page Displays Games sorted ASC DESC by most popular
+
+
+*****************************************************************************
+*****************************************************************************
+
+*****************************************************************************
+*****************************************************************************
+
+////////////////////////////////
+<!-- TODO : DATABASE PHASE 1 -->
+////////////////////////////////
+
+1.
+OnClick List items fields gets saved into MySQL database file.
+(TITLE , Release Date , Picture url / picture file).
+
+2.
+OnClick List items second click removes data from file
+
+*****************************************************************************
+*****************************************************************************
+
+
+////////////////////////////////
+<!-- TODO : DATABASE PHASE 2 -->
+///////////////////////////////
+
+1.
+Activity uses Database file to load & display list items we added
+
+2.
+Sort by release Date
+
+
+////////////////////////////////
+<!-- TODO : DATABASE PHASE 3 -->
+///////////////////////////////
+
+1. Run app in background
+2. Check  : Notifications upon release Date / 1 week prior
+
+
+*****************************************************************************
+*****************************************************************************
+
+*****************************************************************************
+*****************************************************************************
+
+////////////////////////////////
+<!-- TODO : WIDGET PHASE  -->
+///////////////////////////////
+1.
+List Item Widget of added games Sort by release Date (coming next).
+
+
+BASIC CONCEPT = DONE
+*****************************************************************************
+*****************************************************************************
+
+*****************************************************************************
+*****************************************************************************
+
+
+Adding Extra Stuff // Preparing for PlayStore release / beta release.
+////////////////////////////////
+<!-- TODO : PLAYSTORE PHASE  -->
+///////////////////////////////
+
+1.
+ADS / ADMOB INTEGRATION - Monetization optimization
+IN APP PURCHASE / FREEMIUM TRIAL MODEL
+REGIONAL PRICING
+MARKETING / EXPOSURE
+
+2.
+SETTINGS :
+- Dark & Light Theme
+- Language
+- Notification Settings
+
+3. HIDE MY API KEY INSIDE APP / DECOMPILE ABUSE  :D
+
+4 .Device Info crash reports
+
+
+5. WEBSITE LANDING PAGE / Contact Info - Bug report / Short introduction . Nothing fancy
+
+6 . LEGAL STUFF , IMPRESSUM ETC
+
+
+
+////////////////////////////////
+<!-- TODO : EXPANSION PHASE / IDEAS  -->
+///////////////////////////////
+
+- Hype button / most hyped games.
+- Feature List of app expandable list view
+- Description : The tool for gamers ,
+
+- Countdown Hype Chat[no spamming  -
+think about valid implementation- donation based messages .
+ spam filter no links xD). / Notification [ opens 1 week prior to release ]
+
+
+- Connect with friends & show them your list.
+- New Trailer Notification view trailer paste to clipboard
+- Patch Notification.
+
+- Detail page : Engine , Aktuelle version , Awards , Time to beat , recommendations ; collapsing action bar
+- PreOrder affiliate through amazon
+- Google home features : Ok google Öffne GameList und trends
